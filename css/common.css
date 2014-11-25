@@ -1,0 +1,23 @@
+.navbar {
+    height: 100px;
+}
+
+.navbar .wrap {
+    margin: 0 auto;
+    width: 970px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.navbar-nav {
+    float: right;
+    height: 500px;
+    margin-top: 45px;
+}
+
+.navbar-nav {
+    font-size: 18px;
+}
