@@ -1,57 +1,87 @@
+
 <!DOCTYPE html>
 <html>
-<head>
-   <title>iResume</title>
-   <meta charset="utf-8">
-   <link href="../libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-   <link href="../css/common.css" rel="stylesheet">
-   <script src="../libs/jquery.min.js"></script>
-   <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
 
-    <nav class="navbar navbar-inverse" role="navigation">
-        <div class="wrap">
-            <div class="navbar-header">
-                  <a class="navbar-brand" href="#">iResume</a>
+    <title>Cover Template for Bootstrap</title>
+
+    <link href="../css/base.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="../libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../libs/cover.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../libs/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="../css/index.css" rel="stylesheet">
+
+    <script src="../libs/jquery.min.js"></script>
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+            <div class="masthead clearfix">
+                <div class="inner">
+                    <h3 class="masthead-brand">iResume</h3>
+                    <ul class="nav masthead-nav">
+                        <li><a href="../web/welcome.html">Home</a></li>
+                        <li class="active"><a href="#">Create CV</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Homepage</a></li>
-                    <li><a href="#">demo</a></li>
-                    <li class="dropdown"><a href="#">demo</a></li>
-                </ul>
+
+            <div class="mastfoot">
+                <div class="inner">
+                    <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+                </div>
             </div>
         </div>
-    </nav>
 
-    <div class="content">
-        <ul class="nav nav-tabs" id="myTab"> 
-      <li class="active"><a href="#home">Home</a></li> 
-      <li><a href="#profile">Profile</a></li> 
-      <li><a href="#messages">Messages</a></li> 
-      <li><a href="#settings">Settings</a></li> 
-    </ul> 
-       
-    <div class="tab-content"> 
-      <div class="tab-pane active" id="home">...</div> 
-      <div class="tab-pane" id="profile">...</div> 
-      <div class="tab-pane" id="messages">...</div> 
-      <div class="tab-pane" id="settings">...</div> 
-    </div> 
-       
- 
+        <div class="main">
+            <div class="model-container">
+                <img src="../pic/model0.jpg" />
+                <img src="../pic/model1.jpg" />
+                <img src="../pic/model2.jpg" />
+                <img src="../pic/model3.jpg" />    
+            </div>
+            <img src="../pic/model1.jpg" id="model-display" />
+        </div>
+
+
+      </div>
+
     </div>
 
-       <script> 
-      $(function () { 
-        $('#myTab a:last').tab('show');//初始化显示哪个tab 
-      
-        $('#myTab a').click(function (e) { 
-          e.preventDefault();//阻止a链接的跳转行为 
-          $(this).tab('show');//显示当前选中的链接及关联的content 
-        }) 
-      }) 
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="../js/model-display.js"></script>
+    <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../libs/ie10-viewport-bug-workaround.js"></script>
+
     </script>
-</body>
+  </body>
 </html>

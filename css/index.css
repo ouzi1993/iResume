@@ -1,0 +1,28 @@
+
+.main {
+	width: 980px;
+	margin: 0 auto;
+}
+.model-container {
+	width: 500px;
+	float: left;
+}
+.model-container img {
+	height:250px;
+	width: 200px;
+	margin: 0 10px 10px 0; 
+	cursor: pointer;
+}
+
+.model-focus {
+	border: 4px solid #fff;
+}
+#model-display {
+	float: left;
+	height: 510px;
+	width: 400px;
+}
+
+.main {
+	margin-top: 30px;
+}
