@@ -1,28 +1,104 @@
-
-.main {
-	width: 980px;
-	margin: 0 auto;
-}
-.model-container {
-	width: 500px;
-	float: left;
-}
-.model-container img {
-	height:250px;
-	width: 200px;
-	margin: 0 10px 10px 0; 
-	cursor: pointer;
+.header {
+	height: 60px;
+	width: 1140px;
+	background: url(img/icon.png) no-repeat;
+	/* margin-top: 70px; */
+	overflow: hidden;
+	margin: 70px 0 30px 0;
 }
 
-.model-focus {
-	border: 4px solid #fff;
+.container .progress {
+	height: 10px;
+	width: 850px;
 }
-#model-display {
-	float: left;
-	height: 510px;
-	width: 400px;
+
+body .container {
+	min-width: 1170px;
 }
 
 .main {
+	 background: #f3f3f1; 
+}
+
+.panel {
+	float: left;
+}
+/*
+.panel span {
+	line-height: 30px;
+	color: #555;
+}*/
+
+.panel-1 .address {
+	margin-top: 20px;	
+}
+.model {
+	float: right;
+}
+
+.tabs {
+	list-style: none;
 	margin-top: 30px;
+	color: #fff;
+	float: left;
+	cursor: pointer;
+	padding-left: 0;
+}
+
+.tabs li {
+	width: 100px;
+	height: 40px;
+	background: #e1e4e9;
+	border-radius: 3px;
+	/* padding: 3px 5px; */
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	color: #8f9399;
+	border-bottom: 1px solid #fff;
+}
+
+.tabs .current {
+	background: #ffce55;
+	color: #fff;
+}
+
+.panel {
+	margin-top: 30px;
+	width: 750px;
+	padding: 20px;
+}
+
+#yearInput {
+	width: 80px;
+}
+
+#monthInput,
+#dateInput {
+	width: 40px;
+}
+
+.form-inline>* {
+	margin: 20px 20px 20px 0;
+}
+
+.birthday {
+	width: 300px;
+	display: inline-block;
+}
+
+.model {
+	/*width: 250px;*/
+	border-radius: 10px;
+	margin-top: -30px;
+	padding-top: 50px;
+	background: #f3f3f1;
+	/* border-top: 1px solid #8f9399; */
+}
+
+.model img {
+	width: 175px;
+	height: 250px;
+	float: right;
+	margin-bottom: 20px;
 }
